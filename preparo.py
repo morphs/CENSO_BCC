@@ -1,7 +1,10 @@
+import csv 
+import numpy as np
+import pandas as pd
+from tabula import read_pdf
 #########################################################################################################################
 #Read pdf
 #########################################################################################################################
-from tabula import read_pdf
 def read_MECCodigos(file):
     df= read_pdf(file,pages='all',lattice=True)
     file1 = open((file+'.txt'),"w")
