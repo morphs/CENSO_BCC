@@ -37,5 +37,5 @@ for i in alist:
 busca = censo[censo.CO_CURSO.isin(lista)]
 busca.to_csv(r'geral_filtro.csv')
 busca.CO_CURSO.nunique()
-busca = pd.read_csv('C:/Users/morps/Desktop/dados/geral_filtro.csv').profile_report()
+busca = pd.read_csv('geral_filtro.csv').profile_report()
 ########################################################################################################################
