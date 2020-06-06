@@ -6,9 +6,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import matthews_corrcoef
 from scipy.stats import chi2_contingency
-import gower
+#import gower
 #########################################################################################################################
 #Vars
 path = '' #define path here to main folder
